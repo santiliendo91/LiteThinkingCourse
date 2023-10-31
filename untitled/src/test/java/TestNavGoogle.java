@@ -100,7 +100,7 @@ public class TestNavGoogle {
         // Click on the  right container
         WebElement chosenContainer = driver.findElement(By.xpath("//div[12]/div/div/ul[@class='chosen-choices']"));
         chosenContainer.click();
-        //click on the search textfield
+        //click on the dropdown
         WebElement chosenOption = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[12]/div/div/div/ul/li[7]")));
         chosenOption.click();
     }
